@@ -6,6 +6,14 @@ export let eggs = #{
     },
     hypr: #{
         targets: "~/.config/hypr",
-        templates:["*.conf"]
-    }
+        templates: ["*.conf"],
+    },
+    kitty: #{
+        targets: "~/.config/kitty",
+        templates: ["kitty.conf"],
+    },
+    rofi: #{
+        targets: "~/.config/rofi",
+        templates: ["config.rasi"],
+    },
 };
